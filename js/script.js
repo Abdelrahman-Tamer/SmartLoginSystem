@@ -1,11 +1,10 @@
-// Element variables
 var signupName = document.getElementById('signupName');
 var signupEmail = document.getElementById('signupEmail');
 var signupPassword = document.getElementById('signupPassword');
 var signinEmail = document.getElementById('signinEmail');
 var signinPassword = document.getElementById('signinPassword');
 
-// Users array
+
 var signUpArray = [];
 
 // Load data from Local Storage on startup
