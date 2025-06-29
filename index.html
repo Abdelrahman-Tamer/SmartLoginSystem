@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Smart Login System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center">
+        <div class="login-container">
+            <div class="text-center mb-4">
+                <h1 class="display-5 fw-bold text-primary">Smart Login System</h1>
+                <p class="text-muted">Welcome back, please login to your account</p>
+            </div>
+            
+            <form id="loginForm">
+                <div class="mb-3">
+                    <input type="email" class="form-control form-control-lg" id="signinEmail" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="mb-3">
+                    <input type="password" class="form-control form-control-lg" id="signinPassword" placeholder="Enter your password" required>
+                </div>
+                
+                <div id="incorrect" class="text-center mb-3"></div>
+                
+                <button type="button" onclick="login()" class="btn btn-primary btn-lg w-100 mb-3">
+                    Login
+                </button>
+                
+                <div class="text-center">
+                    <p class="text-muted">Don't have an account? 
+                        <a href="html/signup.html" class="text-primary text-decoration-none fw-bold">Sign Up</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
